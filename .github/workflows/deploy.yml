@@ -29,7 +29,7 @@ jobs:
       run: npm ci
 
     - name: Build static site
-      run: npm run build
+      run: node build-static.js
       env:
         NODE_ENV: production
 
